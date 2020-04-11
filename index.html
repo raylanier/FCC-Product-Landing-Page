@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="https://kit.fontawesome.com/3b1ab49e86.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Product Landing Page</title>
+    </head>
+    <body>
+        <header id="header">
+            <div class="logo-container">
+                <img src="img/logo.png" id="header-img">
+            </div>
+
+            <nav id="nav-bar">
+                <a href="" class="nav-link">Home</a>
+                <a href="" class="nav-link">Products</a>
+                <a href="" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="jumbotron">
+                <div class="video-container">
+                    <video id="video" width="420" controls>
+                        <source src="img/2019 Wedding Reel.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="jumbotron-text">
+                    <h1>photographer.<br>camera operator.<br>video editor.<br>web developer</h1>
+                    <p>Servicing the metro Atlanta area.</p>
+                </div>
+            </div>
+
+            <section class="product-container">
+                <div class="products">
+                    <h1>Photography</h1>
+                    
+                    <h3 class="price">$85/hr</h3>
+                    <i class="fa fa-camera"></i>
+                    <p>Lorem ipsum dolor sit amet</p>
+
+                    <button class="product-button" type="button">Purchase</button>
+                </div>
+                <div class="products">
+                    <h1>Videography</h1>
+                    
+                    <h3 class="price">$125/hr</h3>
+                    <i class="fa fa-video"></i>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    
+                    <button class="product-button" type="button">Purchase</button>      
+                </div>
+                <div class="products">
+                    <h1>Web Development</h1>
+                    
+                    <h3 class="price">$75/hr</h3>
+                    <i class="fa fa-laptop-code"></i>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    
+                    <button class="product-button" type="button">Purchase</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="form-container">
+                <h2>Sign up to stay informed!</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+
+                    <input class="form-submit" id="submit" type="submit" value="Submit">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
